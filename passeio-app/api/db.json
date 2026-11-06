@@ -1,0 +1,51 @@
+{
+  "categorias": [
+    {
+      "id": "YChgg3UOOwo",
+      "nome": "Shoppings",
+      "descricao": "Lugares para fazer compras e passear"
+    },
+    {
+      "nome": "Praça",
+      "descricao": "Lugares para passear e levar pets",
+      "id": "Zb59ZOx2OrM"
+    },
+    {
+      "nome": "Bibliotecas",
+      "descricao": "Lugares para ler livros, gibis, mangás e revistas",
+      "id": "D_jVm4_Locs"
+    },
+    {
+      "nome": "Praia",
+      "descricao": "Lugar para relaxar, nadar e se divertir",
+      "id": "cQn_KYadxGs"
+    }
+  ],
+  "lugares": [
+    {
+      "nome": "Shopping Eldorado",
+      "categoria": "Shoppings",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://allos.com.br/wp-content/uploads/2022/07/Franca_destaque_01.jpg",
+      "avaliacao": "5",
+      "id": "5egJgXKbPnk"
+    },
+    {
+      "nome": "Praça do Obelisco",
+      "categoria": "Praça",
+      "localizacao": "Buenos Aires",
+      "urlFoto": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/10/capa-buenos-aires-obelisco.jpg",
+      "avaliacao": "2",
+      "id": "5egJgXKbPnk"
+    },
+    {
+      "nome": "Praia do Pontal",
+      "categoria": "Praia",
+      "localizacao": "Copacabana",
+      "urlFoto": "https://rio.temporadacopacabana.com.br/wp-content/uploads/2021/02/hostelBraz_praia-guaratiba_071.jpg",
+      "avaliacao": "5",
+      "id": "2IboO_-SHY4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
