@@ -1,0 +1,24 @@
+<div class="landing-page min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-blue-700 text-white p-6">
+  <div class="text-center px-6">
+    <h1>Bem-vindo ao Passeio!</h1>
+    <p>Descubra lugares incríveis e crie memórias inesquecíveis.</p>
+    <div class="mt-6 flex flex-col items-center space-y-4">
+        @if(isLoggedIn()){
+            <button 
+                class="bg-white text-blue-400 font-semibold py-3 px-8 space-x-3 hover:bg-gray-100 rounded-full mt-6 transition duration-300" 
+                (click)="navegar()">
+                Olá, {{profile?.name}}, clique aqui para aproveitar o site
+            </button>
+        }
+        @else {
+            <button
+            class="bg-white text-blue-700 font-semibold py-3 px-8 space-x-3 hover:bg-gray-100 rounded-full mt-6 transition duration-300" 
+             (click)="logarComGoogle()">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/960px-Google_Favicon_2025.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" alt="Google Logo" class="inline-block w-6 h-6 mr-2">
+                Entrar com Google
+            </button>
+        }
+    </div>
+  </div>
+  
+</div>

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Layoutprops } from './layoutprops';
 import { ActivatedRoute, Router } from '@angular/router';
 import { filter, map } from 'rxjs/operators';
+import { AuthgoogleService } from '../../authgoogle.service';
 
 @Component({
   selector: 'app-layout',
@@ -14,7 +15,8 @@ export class LayoutComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private loginService: AuthgoogleService
   ) {}
 
   ngOnInit(): void {
@@ -41,6 +43,11 @@ export class LayoutComponent implements OnInit {
     }
     return { titulo: 'Passeio', subtitulo: 'Descubra lugares incríveis' };
   }
+
+  logout() {
+    this.loginService.logout();
+  }
+
 }
 
   // updateLayoutProps(currentRoute: ActivatedRoute) {

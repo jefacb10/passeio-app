@@ -28,6 +28,9 @@
         "@schematics/angular:service": {
           "skipTests": true,
           "type": "service"
+        },
+        "@schematics/angular:guard": {
+          "skipTests": true
         }
       },
       "root": "",
