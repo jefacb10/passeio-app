@@ -1,0 +1,24 @@
+{
+  "categorias": [
+    {
+      "nome": "Praias",
+      "descricao": "Lugares para passear e tomar sol",
+      "id": 1
+    },
+    {
+      "nome": "Restaurante",
+      "descricao": "Lugar para ter experiências gastronômicas e conversar",
+      "id": 2
+    }
+  ],
+  "lugares": [
+    {
+      "nome": "Outback",
+      "categoria": "Restaurante",
+      "localizacao": "Shopping Eldorado",
+      "urlFoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCQXhxGnzMfe0LY3CR8qK8VbuyDtlQIETvgJcLlINCJw&s=10",
+      "avaliacao": "4",
+      "id": 1
+    }
+  ]
+}
